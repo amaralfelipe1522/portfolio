@@ -1,0 +1,89 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    background-size: 100%;
+}
+
+*{
+    font-family: "Red Hat Display","Helvetica";
+}
+
+
+.page-header{
+    height:200px;
+}
+
+.header-title{
+    margin-top:50px;
+    text-align: center;
+    color: white;
+}
+
+.wrapper{
+    height:50px;
+    width:100%;
+}
+.logo{
+    float: left;
+    height:100%;
+}
+
+.navbar{
+    float: right;
+    padding: 0 20px;
+    
+}
+.navbar-list{
+    margin: 0;
+    padding:0;
+ 
+}
+.navbar-list .navbar-item{
+    list-style-type: none;
+    padding:10px;
+    display: inline-block;
+    
+}
+
+.navbar-item:hover{
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+    border-bottom: 3px solid white;
+    }
+
+.navbar-ref{
+    text-decoration:none;
+    color:#fff;
+    display: block;
+    padding: 10px;
+}
+
+
+.page-main{
+    background-color: white;
+    text-align: center;
+}
+
+.main-wrapper{
+    width: 75%;
+    display: inline-block;
+    
+}
+
+
+.portfolio-list .portfolio-item{
+    list-style-type: none;
+    display:inline-block;
+    width: 24%;
+
+}
+.box-item{
+    border: 1px solid #666666;
+    border-radius: 5px;
+}
+
